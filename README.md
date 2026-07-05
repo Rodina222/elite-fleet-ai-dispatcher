@@ -55,6 +55,32 @@ This work demonstrates that parameter-efficient fine-tuning (PEFT) of a 7B param
 
 ...all without full model retraining. It provides strong evidence that LLMs can be adapted beyond conversational and generative tasks into strictly structured, operational intelligence systems.
 
+## Team Contributions
+
+### Raneem — Dataset Preparation
+
+Responsible for the complete data pipeline, including:
+
+* Designing fleet dispatch scenarios.
+* Preparing the supervised instruction dataset.
+* Structuring the Instruction–Input–Output format.
+* Balancing vehicle classes.
+* Organizing and preprocessing the dataset for training.
+  
+###  Rodina Khallaf — Model Development
+
+Responsible for the complete machine learning pipeline, including:
+
+* Selecting the base LLM.
+* Designing the fine-tuning approach.
+* Implementing the LoRA training pipeline.
+* Training and validating the model.
+* Hyperparameter configuration.
+* Performance evaluation.
+* Experiment tracking using Weights & Biases.
+* Inference monitoring with LangSmith.
+* Deploying the trained model to Hugging Face Spaces.
+
 ##  Limitations & Future Work
 * **Data Distribution:** The dataset is semi-synthetic and may not perfectly capture real-world distribution shifts or edge-case anomalies.
 * **Robustness:** Performance under adversarial or heavily out-of-distribution prompts requires further evaluation.
