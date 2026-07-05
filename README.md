@@ -57,7 +57,7 @@ This work demonstrates that parameter-efficient fine-tuning (PEFT) of a 7B param
 
 ## Team Contributions
 
-### Raneem — Dataset Preparation
+### [Raneem Hussein](https://github.com/Raneemhussien) — Dataset Preparation
 
 Responsible for the complete data pipeline, including:
 
@@ -66,8 +66,8 @@ Responsible for the complete data pipeline, including:
 * Structuring the Instruction–Input–Output format.
 * Balancing vehicle classes.
 * Organizing and preprocessing the dataset for training.
-  
-###  Rodina Khallaf — Model Development
+
+### [Rodina Khallaf](https://github.com/Rodina222) — Model Development
 
 Responsible for the complete machine learning pipeline, including:
 
