@@ -2,6 +2,21 @@
 **Generative AI for Constrained Autonomous Fleet Operations**
 
 *Supervised Fine-Tuning of Qwen2.5-7B-Instruct for multi-class operational decision-making under strict safety constraints.*
+---
+
+## Live Demo
+
+Try the deployed application on Hugging Face Spaces:
+
+🤗 https://huggingface.co/spaces/Rodina222/elite-fleet-dispatcher
+
+The demo allows users to submit a mission brief and receive:
+
+- Vehicle recommendation
+- Step-by-step reasoning
+- Safety-aware decision making
+
+---
 
 ##  Key Metrics Achieved
 * **Vehicle Selection Accuracy:** `25%` (baseline) → `81%`
@@ -86,7 +101,4 @@ Responsible for the complete machine learning pipeline, including:
 * **Robustness:** Performance under adversarial or heavily out-of-distribution prompts requires further evaluation.
 * **Future Work:** Implementing Reinforcement Learning from Human Feedback (RLHF) or constraint-aware decoding strategies could further enhance operational robustness.
 
-##  Quick Links
-*  **[Live Interactive Demo (HF Spaces)](#)** *(https://huggingface.co/spaces/Rodina222/elite-fleet-dispatcher)*
-*  **[Video Demonstration](#)** *()*
-*  **[1-Page Technical Report](#)** *()*
+
